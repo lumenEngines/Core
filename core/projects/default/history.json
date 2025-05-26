@@ -1,0 +1,18 @@
+{
+  "conversations": [
+    {
+      "user": "hey",
+      "assistant": null,
+      "timestamp": 1748210192.950474
+    },
+    {
+      "user": "what is this: \n * \n * Key Components:\n * - AnthropicChat: Ma",
+      "assistant": null,
+      "timestamp": 1748210411.046519
+    }
+  ],
+  "metadata": {
+    "created": 1748209596.630132,
+    "last_accessed": 1748210411.046519
+  }
+}

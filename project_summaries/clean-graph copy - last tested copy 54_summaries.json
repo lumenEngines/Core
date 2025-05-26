@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "total_files": 1,
+    "generated_at": 1747939644.381265,
+    "generated_at_human": "Fri May 23 00:17:24 2025"
+  },
+  "summaries": {
+    "/Users/zaragoel/clean-graph copy - last tested copy 54/src/components/ui/LayoutControls.css": {
+      "file_path": "/Users/zaragoel/clean-graph copy - last tested copy 54/src/components/ui/LayoutControls.css",
+      "file_name": "LayoutControls.css",
+      "file_size": 2347,
+      "size_category": "small",
+      "summary": "1. This file contains CSS styles for a layout controls component, which is likely a user interface element that allows users to modify the layout or arrangement of elements on a page or application.\n\n2. Key components/classes:\n- `.layout-controls`: Styles for the main container of the layout controls.\n- `.layout-header`: Styles for the header section of the layout controls.\n- `.toggle-button`: Styles for a toggle button within the header.\n- `.layout-buttons`: Styles for a container holding layout button options.\n- `.layout-button`: Styles for individual layout button options.\n- `.layout-description`: Styles for a description section within the layout controls.\n- `.pulsing`: Animation styles for a pulsing effect on a layout button.\n\n3. No dependencies or imports are used as this is a CSS file.\n\n4. Based on the file path (`/src/components/ui/LayoutControls.css`), this file likely provides styles for a reusable UI component named `LayoutControls` within a larger React or other front-end application. The layout controls component allows users to modify the layout or arrangement of elements, potentially in a data visualization or content management context.",
+      "timestamp": 1747939644.3759308,
+      "api_used": "anthropic"
+    }
+  }
+}

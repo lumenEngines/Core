@@ -1,0 +1,8 @@
+{
+    "clipboard": {
+        "short_timeout": 1.4999999999999996,
+        "extended_timeout": 30.0,
+        "check_interval": 0.5,
+        "preserve_clipboard": true
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "total_files": 5,
+    "generated_at": 1747990566.433582,
+    "generated_at_human": "Fri May 23 14:26:06 2025"
+  },
+  "summaries": {
+    "/Users/zaragoel/Desktop/Lumen/LumenCore copy/build_app.sh": {
+      "file_path": "/Users/zaragoel/Desktop/Lumen/LumenCore copy/build_app.sh",
+      "file_name": "build_app.sh",
+      "file_size": 159,
+      "size_category": "small",
+      "summary": "1. This file is a Bash script that removes existing `build` and `dist` folders, and then uses PyInstaller to create a distributable package for the Lumenar application.\n\n2. Key functions/components:\n   - `cd ~/Desktop/main`: Changes the current directory to `~/Desktop/main`.\n   - `rm -rf build dist`: Removes the `build` and `dist` folders if they exist.\n   - `sudo pyinstaller Lumenar.spec`: Runs PyInstaller with root privileges using the `Lumenar.spec` specification file to create the distributable package.\n\n3. Dependencies and imports:\n   - This script assumes the presence of PyInstaller, which is a tool used to package Python applications into standalone executables.\n   - It also assumes the existence of a `Lumenar.spec` file, which is a PyInstaller specification file that provides instructions on how to bundle the application.\n\n4. Role in the larger project context:\n   - This script is likely used as part of the build process for the Lumenar application.\n   - It cleans up previous build artifacts and then creates a distributable package using PyInstaller, which can be distributed and run on different systems without requiring the installation of Python or other dependencies.\n   - The script is likely executed as part of a larger build pipeline or continuous integration/deployment process to create release packages for the Lumenar application.\n\nOverall, this script serves as a convenient way to automate the process of creating a distributable package for the Lumenar application, ensuring a consistent and repeatable build process.",
+      "timestamp": 1747940549.944222,
+      "api_used": "anthropic"
+    },
+    "/Users/zaragoel/Desktop/Lumen/LumenCore copy/src/ProjectManagerDialog.py": {
+      "file_path": "/Users/zaragoel/Desktop/Lumen/LumenCore copy/src/ProjectManagerDialog.py",
+      "file_name": "ProjectManagerDialog.py",
+      "file_size": 48805,
+      "size_category": "medium",
+      "summary": "1. This file contains the implementation of a PyQt5-based Project Manager Dialog for a code editor or IDE. It allows users to link and manage projects, view the file structure, and generate AI-powered summaries for individual files.\n\n2. Key components:\n   - `ProjectManagerDialog` (class): The main dialog window with a file tree, details panel, and buttons for project management and summarization.\n   - `SingleFileSummarizationThread` (class): A thread for summarizing a single file asynchronously.\n   - `ProjectSummarizationThread` (class): A thread for summarizing all project files without blocking the UI.\n   - `BasicSyntaxHighlighter` (class): A basic syntax highlighter for file content when Pygments is not available.\n\n3. Dependencies and imports:\n   - PyQt5 for the GUI\n   - `project_linker` (module) for project linking and management\n   - `file_summarizer` (module) for file summarization\n   - `file_tracker` (module) for tracking file changes\n   - `pygments` (optional) for advanced syntax highlighting\n   - Standard Python libraries like `os`, `sys`, `json`, `time`, and `re`\n\n4. This file is a part of a larger project that seems to be an Integrated Development Environment (IDE) or code editor. The Project Manager Dialog serves as a central component for managing and summarizing projects within the IDE. It integrates with other modules like `project_linker` for project management, `file_summarizer` for generating AI-powered summaries of files, and `file_tracker` for monitoring file changes. The dialog provides a user interface for developers to interact with their projects, view file structures, and leverage AI-powered summaries to understand the codebase more efficiently.",
+      "timestamp": 1747982750.4786859,
+      "api_used": "anthropic"
+    },
+    "/Users/zaragoel/Desktop/Lumen/LumenCore copy/src/program/notobjects/core.py": {
+      "file_path": "/Users/zaragoel/Desktop/Lumen/LumenCore copy/src/program/notobjects/core.py",
+      "file_name": "core.py",
+      "file_size": 8290,
+      "size_category": "medium",
+      "summary": "1. This file appears to be the core module of a 2D graphics application built using Pygame. It handles various operations such as creating and manipulating graphical objects, managing layers, and updating the display.\n\n2. Key functions/classes/components:\n   - `create_line()`, `create_rectangle()`, `create_triangle_equilateral()`, `create_oval()`, `create_circle()`: Functions to create different types of graphical objects.\n   - `shrink()`, `scale()`: Functions to scale the currently selected object.\n   - `next_object()`, `delete()`: Functions to switch between objects and delete the currently selected object.\n   - `new_layer()`, `switch_layer()`: Functions to create new layers and switch between existing layers.\n   - `Layer` class: Represents a layer that can hold graphical objects.\n   - `LayerManager` class: Manages a single layer and its objects, providing methods to create, select, and manipulate objects.\n   - `Vector` class (imported): Likely represents a 2D vector or coordinate.\n\n3. Dependencies and imports used:\n   - `time`: Python module for working with time-related operations.\n   - `pygame`: The main library used for creating graphical applications and games.\n   - `Layer`, `LayerManager`, and `Vector` classes are imported from other modules within the project.\n\n4. Role in the larger project context:\n   Based on the code, this file seems to be the central component that handles the core functionality of the application. It manages the creation and manipulation of graphical objects, layers, and provides functions to perform various operations like scaling, switching between objects and layers, and toggling visibility. It likely interacts with other modules or classes that handle input, rendering, and other aspects of the application.",
+      "timestamp": 1747986799.008092,
+      "api_used": "anthropic"
+    },
+    "/Users/zaragoel/Desktop/Lumen/LumenCore copy/src/smart_context_matcher.py": {
+      "file_path": "/Users/zaragoel/Desktop/Lumen/LumenCore copy/src/smart_context_matcher.py",
+      "file_name": "smart_context_matcher.py",
+      "file_size": 14631,
+      "size_category": "medium",
+      "summary": "1. This file contains code for intelligently determining whether to include project context when processing user input, based on the content of the input and whether the user explicitly requested context. It utilizes an efficient sliding window algorithm to match user input against project files to identify relevant code context.\n\n2. Key functions/classes/components:\n   - `CodeMatcher` class: Handles efficient code matching using the sliding window algorithm.\n   - `SmartContextManager` class: Manages the intelligent inclusion of project context based on user input and code matching results.\n   - `normalize_code` function: Normalizes code text for comparison.\n   - `has_code_indicators` function: Checks if the given text contains programming-related content.\n   - `sliding_window_match` function: Uses the sliding window algorithm to find the best match between a query and a file.\n\n3. Dependencies and imports used:\n   - `re` (regular expressions)\n   - `os` (operating system interfaces)\n   - `typing` (type hints)\n   - `project_linker` (for accessing linked project data)\n   - `file_summarizer` (for accessing file summaries)\n\n4. This file's role in the larger project context:\n   - It is part of a system that assists users with coding tasks by providing relevant project context.\n   - It determines when and what type of context (full project, specific file, or none) to include in the output based on the user's input and the detected code content.\n   - It integrates with other components like `project_linker` and `file_summarizer` to access project information and file summaries.\n   - The intelligent context inclusion aims to provide users with the most relevant and helpful information based on their input and the project's codebase.",
+      "timestamp": 1747988930.786869,
+      "api_used": "anthropic"
+    },
+    "/Users/zaragoel/Desktop/Lumen/LumenCore copy/src/TextWindow.py": {
+      "file_path": "/Users/zaragoel/Desktop/Lumen/LumenCore copy/src/TextWindow.py",
+      "file_name": "TextWindow.py",
+      "file_size": 57333,
+      "size_category": "large",
+      "summary": "1. This file, `TextWindow.py`, defines the main graphical user interface (GUI) for the Lumen application. It handles text input and output, clipboard monitoring, and various application features such as settings, project management, and code detection.\n\n2. Key functions/classes/components:\n   - `TextWindow` class: The main window class that manages the GUI, clipboard monitoring, and interaction with other components.\n   - `PromptWindow` class: A dialog window that appears when new clipboard text is detected, allowing the user to enter prompts and interact with the application.\n   - `ToggleButton` class: A custom button class with toggle functionality.\n   - Event handling methods for clipboard changes, key presses, and window interactions.\n   - Methods for managing pages, displaying text output, and interacting with other components like project management and settings.\n\n3. Dependencies and imports used:\n   - PyQt5: For creating the GUI and handling events.\n   - `groq_api2`, `groq_api4`: Modules for interacting with the Groq language model.\n   - `prompting`: A module related to generating prompts.\n   - `subprocess`: For running external processes.\n   - `settings`: A module for managing application settings.\n   - `SettingsDialog`: A dialog window for modifying settings.\n   - `plot`: Components for creating and managing plot windows.\n   - `ProjectManagerDialog`: A dialog window for managing projects.\n   - `project_manager`: A module for managing projects.\n   - `instant_code_detector`: A module for detecting code snippets in the clipboard.\n\n4. File's role in the larger project context:\n   This file serves as the central component of the Lumen application, providing the main user interface and coordinating various features and functionalities. It acts as the hub for user input, text output, clipboard monitoring, project management, settings configuration, and code detection. It interacts with other modules and components to facilitate the application's overall functionality.",
+      "timestamp": 1747990566.433218,
+      "api_used": "anthropic"
+    }
+  }
+}

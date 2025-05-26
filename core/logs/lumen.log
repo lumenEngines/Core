@@ -1,0 +1,62 @@
+2025-05-26 03:03:49 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:03:49 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:03:49 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:04:13 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:04:13 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:04:13 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:04:13 - __main__ - INFO - main_test.py:29 - Starting Lumen in test mode...
+2025-05-26 03:04:15 - __main__ - INFO - main_test.py:33 - GUI window opened successfully
+2025-05-26 03:06:59 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:06:59 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:06:59 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:08:23 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:08:23 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:08:23 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:09:15 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:09:15 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:09:15 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:10:11 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:10:11 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:10:11 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:14:01 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:14:01 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:14:01 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:14:20 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:14:20 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:14:20 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:14:43 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:14:43 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:14:43 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:15:16 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:15:16 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:15:16 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:15:17 - api.groq_dependency_api - ERROR - groq_dependency_api.py:77 - Groq API key not found in configuration
+2025-05-26 03:16:35 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:16:35 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:16:35 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:17:06 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:17:06 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:17:06 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:17:07 - api.anthropic_api - ERROR - anthropic_api.py:28 - Anthropic API key not found in configuration
+2025-05-26 03:19:47 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:19:47 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:19:47 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:19:48 - api.anthropic_api - ERROR - anthropic_api.py:28 - Anthropic API key not found in configuration
+2025-05-26 03:20:19 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:20:19 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:20:19 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:20:20 - __main__ - INFO - main.py:275 - Starting main function...
+2025-05-26 03:20:20 - __main__ - INFO - main.py:277 - Setting up window...
+2025-05-26 03:21:16 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:21:16 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:21:16 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:21:17 - __main__ - INFO - main.py:275 - Starting main function...
+2025-05-26 03:21:17 - __main__ - INFO - main.py:277 - Setting up window...
+2025-05-26 03:26:27 - root - INFO - logger_config.py:66 - Lumen application logging initialized
+2025-05-26 03:26:27 - root - INFO - logger_config.py:67 - Log level: INFO
+2025-05-26 03:26:27 - root - INFO - logger_config.py:68 - Debug mode: False
+2025-05-26 03:26:28 - __main__ - INFO - main.py:275 - Starting main function...
+2025-05-26 03:26:28 - __main__ - INFO - main.py:277 - Setting up window...
+2025-05-26 03:26:39 - anthropic._base_client - INFO - _base_client.py:1109 - Retrying request to /v1/messages in 0.403319 seconds
+2025-05-26 03:26:44 - httpx - INFO - _client.py:1025 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-05-26 03:30:14 - httpx - INFO - _client.py:1025 - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
