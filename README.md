@@ -24,7 +24,7 @@ Lumen is an intelligent clipboard assistant that uses AI to help you process and
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd "Deploy Lumen"
+cd "Lumen"
 ```
 
 2. Create a virtual environment (recommended):
@@ -105,7 +105,7 @@ Access settings through the main window to configure:
 ## Project Structure
 
 ```
-Deploy Lumen/
+Lumen/
 ├── main.py              # Application entry point
 ├── config.py            # Configuration management
 ├── logger_config.py     # Logging setup
@@ -117,6 +117,10 @@ Deploy Lumen/
 └── .env.example         # Environment template
 ```
 
+### Project Architecture
+![Architecture1](architecture1.png)
+![Architecture2](architecture2.png)
+
 ## Troubleshooting
 
 ### Common Issues
@@ -125,6 +129,7 @@ Deploy Lumen/
 2. **Import Errors**: Install all dependencies with `pip install -r requirements.txt`
 3. **UI Issues**: Ensure PyQt5 is properly installed for your system
 4. **Clipboard Access**: On macOS, grant Terminal/IDE clipboard access permissions
+5. **OPENAI API KEY**: Make sure your api/openai_api.py file contains your api key
 
 ### Logs
 
